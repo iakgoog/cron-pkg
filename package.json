@@ -9,10 +9,6 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "devDependencies": {
-    "chalk": "^4.1.2",
-    "node-cron": "^3.0.0"
-  },
   "bin": "src/app.js",
   "pkg": {
     "assets": [
@@ -22,5 +18,9 @@
     "targets": [
       "node14-win-x64"
     ]
+  },
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "chokidar": "^3.5.2"
   }
 }
